@@ -8,10 +8,6 @@ class Vampire {
   drink() {
     this.thirsty = false
   }
-
-  undrink() {
-    this.thirsty = true
-  }
 }
 
 module.exports = Vampire;
